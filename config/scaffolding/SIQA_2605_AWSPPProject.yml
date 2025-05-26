@@ -7,12 +7,6 @@ packages:
   gitUrl: https://github.com/Karthik-V-IBM-10
   gitUsername: Karthik-V-IBM-10
   gitBranch: main
-- name: TPP_services_in_FCS
-  version: "1.0"
-  gitServerName: SIQA_KVV_IBM
-  gitUrl: https://github.com/Karthik-V-IBM-10
-  gitUsername: Karthik-V-IBM-10
-  gitBranch: main
 - name: SSL_JDBC_Test
   version: "1.0"
   gitServerName: prabhakarsag
@@ -35,6 +29,12 @@ packages:
   gitUrl: https://github.com/manoj-jannu-IBM
   gitUsername: manoj-jannu-IBM
   gitBranch: main
+- name: TPP_services_in_FCS
+  version: "1.0"
+  gitServerName: SIQA_KVV_IBM
+  gitUrl: https://github.com/Karthik-V-IBM-10
+  gitUsername: Karthik-V-IBM-10
+  gitBranch: one_service
 services:
 - serviceName: project.siqa_2605_awspp.integrations:AlertsCRTandERT
   packages:
